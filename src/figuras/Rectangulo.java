@@ -16,4 +16,8 @@ public class Rectangulo {
 	public String toString() {
 		return "Rectangulo [ancho" + ancho;
 	}
+	
+	public Double getArea() {
+		return this.ancho * this.alto;
+	}
 }
